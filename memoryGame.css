@@ -1,0 +1,63 @@
+body { 
+  margin:0;
+  padding:0;
+  background: url('https://www.ihdimages.com/wp-content/uploadsktz/2014/11/psg_logo_png_wallpaper_free_hd.jpg') no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+div#memory_board{
+	background:black;
+	  filter: opacity(0.95);
+	width:50em;
+	height:100%;
+	padding:3em;
+	margin:0px auto;
+}
+
+div#memory_board > div{
+	background: url(https://lh3.googleusercontent.com/-IOCPPco5lVnDljgcelvLF-7fW3d5Ip08XbE7JExsXCSlW9GG0QMlsh02Go2KafUQd0=w300) no-repeat;
+	background-size: 2em;
+	border:#000 1px solid;
+	width:2em;
+	height:2em;
+	float:left;
+	margin:0.1em;
+	font-size:5em;
+	cursor:pointer;
+	text-align:center;
+}
+
+.title{
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0 0 2px black;
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 0.5em;
+	color: White;
+
+}
+
+input{
+	margin-bottom: 10px;
+	height: 3em;
+	font-family: 'Permanent Marker', cursive;
+	border-radius: 12% 12% 12%;
+	background: black;
+	color:white;
+}
+
+#bcontainer{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	margin-bottom: 10px;
+
+}
+
+#limit{
+	width: 11em;
+
+}
+
+
+
+
